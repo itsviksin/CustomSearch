@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites>
+    <testsuite tests="2" failures="0" errors="0" time="34.88517498970032" name="All tests">
+        <testsuite tests="2" failures="0" errors="0" time="34.88407903909683" name="CustomSearchUITests.xctest">
+            <testsuite tests="2" failures="0" errors="0" time="34.88314300775528" name="CustomSearchUITests">
+                <testcase classname="CustomSearchUITests.CustomSearchUITests" name="testSample1" time="15.92946100234985"></testcase>
+                <testcase classname="CustomSearchUITests.CustomSearchUITests" name="testSample2" time="18.95256900787354"></testcase>
+            </testsuite>
+        </testsuite>
+    </testsuite>
+</testsuites>

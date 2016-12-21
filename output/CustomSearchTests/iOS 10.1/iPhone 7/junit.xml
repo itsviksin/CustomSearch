@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites>
+    <testsuite tests="1" failures="0" errors="0" time="0.002496004104614258" name="All tests">
+        <testsuite tests="1" failures="0" errors="0" time="0.001572012901306152" name="CustomSearchTests.xctest">
+            <testsuite tests="1" failures="0" errors="0" time="0.00109398365020752" name="CustomSearchTests">
+                <testcase classname="CustomSearchTests.CustomSearchTests" name="testAdd" time="0.0006380081176757812"></testcase>
+            </testsuite>
+        </testsuite>
+    </testsuite>
+</testsuites>

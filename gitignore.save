@@ -1,0 +1,24 @@
+xcodebuild \
+  -IDEBuildLocationStyle=Custom \
+  -IDECustomBuildLocationType=Absolute \
+  -IDECustomBuildProductsPath="$PWD/build/Products" \
+  -scheme CustomSearch \
+  -project 'CustomSearch.xcodeproj' \
+  -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.1' \
+  build-for-testing
+
+pxctest \
+  run-tests \
+  --destination 'name=iPhone 6s,os=iOS 10.1’ \
+  --destination 'name=iPhone 6,os=iOS 10.1' \
+  --testrun build/Products/CustomSearch_iphonesimulator10.1-x86_64.xctestrun
+
+
+Error Domain=com.facebook.FBSimulatorControl Code=0 "Failed start test manager" UserInfo={NSLocalizedDescription=Failed start test manager, NSUnderlyingError=0x7f87e3d8aab0 {Error Domain=com.facebook.XCTestBootstrap Code=0 "Failed launch test runner" UserInfo={NSLocalizedDescription=Failed launch test runner, NSUnderlyingError=0x7f87e3d8ac60 {Error Domain=com.facebook.FBSimulatorControl Code=0 "Could not get Process Info for launched application process 2576" UserInfo={NSLocalizedDescription=Could not get Process Info for launched application process 2576}}}}}
+
+s.cinikeplusbot
+
+cp ${WORKSPACE}/TestRun/TestSummaries.xml ${WORKSPACE}/junit.xml
+
+
+VisualReviewTests,PerformanceUITests,ContentUITest,KnownIssueTests,PostSessionUITests,TimeBasedUITests,HooveringUITests,RecordWorkout

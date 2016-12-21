@@ -1,0 +1,134 @@
+Nov 29 16:03:15  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Container Application Did Launch => Process Simulator | PID 2765
+Nov 29 16:03:15  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Did Change State => Booting
+Nov 29 16:03:15  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Simulator Did launch => Process launchd_sim | PID 2767
+Nov 29 16:03:15  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Did Change State => Booted
+Nov 29 16:04:32  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Connection Did Connect => Bridge: Framebuffer ((null)) | HID (null) | (null)
+Nov 29 16:04:32  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Container Application Did Launch => Process Simulator | PID 3201
+Nov 29 16:04:32  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Did Change State => Booting
+Nov 29 16:04:32  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Simulator Did launch => Process launchd_sim | PID 3202
+Nov 29 16:04:32  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Did Change State => Booted
+Nov 29 16:04:37  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Connection Did Connect => Bridge: Framebuffer ((null)) | HID (null) | (null)
+Nov 29 16:04:43  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Application Did Launch => Process CustomSearch | PID 3301
+Nov 29 16:04:43  FBControlCore[2763] <Info>: Connecting Test Bundle
+Nov 29 16:04:43  FBControlCore[2763] <Info>: Creating the test bundle connection.
+Nov 29 16:04:43  FBControlCore[2763] <Info>: Listening for proxy connection request from the test bundle (all platforms)
+Nov 29 16:04:43  FBControlCore[2763] <Info>: Resuming the test bundle connection.
+Nov 29 16:04:43  FBControlCore[2763] <Info>: Checking test manager availability...
+Nov 29 16:04:43  FBControlCore[2763] <Info>: Starting test session with ID 63600A3C-F9B9-4512-B332-AF79A1141391
+Nov 29 16:04:44  FBControlCore[2763] <Info>: testmanagerd handled session request using protcol version 22.
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Got proxy channel request from test bundle
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Test Bundle is Ready
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Starting the daemon connection
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Resuming the daemon connection.
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Whitelisting test process ID 3301
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Got whitelisting response and daemon protocol version 22
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Ready to execute test plan
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Bundle Connection scheduling start of Test Plan
+Nov 29 16:04:44  FBControlCore[2763] <Info>: Daemon Notified of start of test plan
+Nov 29 16:04:44  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: TestManager Did Connect => TestManager Awaiting Result for (Test Host PID 3301 | Test Host Bundle vikcom.CustomSearch | Session ID 63600A3C-F9B9-4512-B332-AF79A1141391)
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Test Plan Started
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Test Plan Ended
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Daemon Notified of end of test plan
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Disconnecting Daemon from state 'ended test plan'
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Daemon Connection Ended with result: Daemon Connection ended normally
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Disconnecting Test Bundle in state 'ended test plan'
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Test Completed with Result: Bundle Connection ended normally
+Nov 29 16:04:48  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Application Did Launch => Process CustomSearch | PID 3314
+Nov 29 16:04:48  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Application Did Terminate => Expected 0 Process CustomSearch | PID 3301
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Connecting Test Bundle
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Creating the test bundle connection.
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Listening for proxy connection request from the test bundle (all platforms)
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Resuming the test bundle connection.
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Checking test manager availability...
+Nov 29 16:04:48  FBControlCore[2763] <Info>: Starting test session with ID 33D4E3AE-EB33-4E29-B684-44BC03BFB453
+Nov 29 16:04:49  FBControlCore[2763] <Info>: testmanagerd handled session request using protcol version 22.
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Got proxy channel request from test bundle
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Test Bundle is Ready
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Starting the daemon connection
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Resuming the daemon connection.
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Whitelisting test process ID 3314
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Got whitelisting response and daemon protocol version 22
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Ready to execute test plan
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Bundle Connection scheduling start of Test Plan
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Daemon Notified of start of test plan
+Nov 29 16:04:49  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: TestManager Did Connect => TestManager Awaiting Result for (Test Host PID 3314 | Test Host Bundle vikcom.CustomSearch | Session ID 33D4E3AE-EB33-4E29-B684-44BC03BFB453)
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Test Plan Started
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Test Plan Ended
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Daemon Notified of end of test plan
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Disconnecting Daemon from state 'ended test plan'
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Daemon Connection Ended with result: Daemon Connection ended normally
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Disconnecting Test Bundle in state 'ended test plan'
+Nov 29 16:04:49  FBControlCore[2763] <Info>: Test Completed with Result: Bundle Connection ended normally
+Nov 29 16:04:57  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Application Did Terminate => Expected 0 Process CustomSearch | PID 3314
+Nov 29 16:04:57  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Application Did Launch => Process XCTRunner | PID 3319
+Nov 29 16:04:57  FBControlCore[2763] <Info>: Connecting Test Bundle
+Nov 29 16:04:57  FBControlCore[2763] <Info>: Creating the test bundle connection.
+Nov 29 16:04:57  FBControlCore[2763] <Info>: Listening for proxy connection request from the test bundle (all platforms)
+Nov 29 16:04:57  FBControlCore[2763] <Info>: Resuming the test bundle connection.
+Nov 29 16:04:57  FBControlCore[2763] <Info>: Checking test manager availability...
+Nov 29 16:04:57  FBControlCore[2763] <Info>: Starting test session with ID C2A76319-E90F-4CDE-B9A1-ACADBFC028C7
+Nov 29 16:04:57  FBControlCore[2763] <Info>: testmanagerd handled session request using protcol version 22.
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Got proxy channel request from test bundle
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Test Bundle is Ready
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Starting the daemon connection
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Resuming the daemon connection.
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Whitelisting test process ID 3319
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Got whitelisting response and daemon protocol version 22
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Ready to execute test plan
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Bundle Connection scheduling start of Test Plan
+Nov 29 16:04:58  FBControlCore[2763] <Info>: Daemon Notified of start of test plan
+Nov 29 16:04:58  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: TestManager Did Connect => TestManager Awaiting Result for (Test Host PID 3319 | Test Host Bundle com.apple.test.CustomSearchUITests-Runner | Session ID C2A76319-E90F-4CDE-B9A1-ACADBFC028C7)
+Nov 29 16:05:05  FBControlCore[2763] <Info>: Test Plan Started
+Nov 29 16:05:05  FBControlCore[2763] <Info>: Started initilizing for UI testing.
+Nov 29 16:05:05  FBControlCore[2763] <Info>: Test process requested process launch with bundleID vikcom.CustomSearch
+Nov 29 16:05:05  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Application Did Launch => Process CustomSearch | PID 3324
+Nov 29 16:05:05  FBControlCore[2763] <Info>: Test process requested launch process status with token 140679480256400
+Nov 29 16:05:05  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Application Did Launch => Process XCTRunner | PID 3325
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Connecting Test Bundle
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Creating the test bundle connection.
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Listening for proxy connection request from the test bundle (all platforms)
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Resuming the test bundle connection.
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Checking test manager availability...
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Starting test session with ID A2072036-5D8D-4C03-81D5-04483EE36DB5
+Nov 29 16:05:06  FBControlCore[2763] <Info>: testmanagerd handled session request using protcol version 22.
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Got proxy channel request from test bundle
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Test Bundle is Ready
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Starting the daemon connection
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Resuming the daemon connection.
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Whitelisting test process ID 3325
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Got whitelisting response and daemon protocol version 22
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Ready to execute test plan
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Bundle Connection scheduling start of Test Plan
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Daemon Notified of start of test plan
+Nov 29 16:05:06  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: TestManager Did Connect => TestManager Awaiting Result for (Test Host PID 3325 | Test Host Bundle com.apple.test.CustomSearchUITests-Runner | Session ID A2072036-5D8D-4C03-81D5-04483EE36DB5)
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Test Plan Started
+Nov 29 16:05:06  FBControlCore[2763] <Info>: Started initilizing for UI testing.
+Nov 29 16:05:08  FBControlCore[2763] <Info>: Test process requested process launch with bundleID vikcom.CustomSearch
+Nov 29 16:05:08  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Application Did Launch => Process CustomSearch | PID 3335
+Nov 29 16:05:08  FBControlCore[2763] <Info>: Test process requested launch process status with token 140679480390336
+Nov 29 16:05:16  FBControlCore[2763] <Info>: Test process requested process termination with token 140679480256400
+Nov 29 16:05:16  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Application Did Terminate => Expected 1 Process CustomSearch | PID 3324
+Nov 29 16:05:16  FBControlCore[2763] <Info>: Test process requested process launch with bundleID vikcom.CustomSearch
+Nov 29 16:05:16  FBControlCore[2763] <Info>: EB0B3910-8705-4416-8B51-489AD5B8C955: Application Did Launch => Process CustomSearch | PID 3357
+Nov 29 16:05:16  FBControlCore[2763] <Info>: Test process requested launch process status with token 140679481242192
+Nov 29 16:05:18  FBControlCore[2763] <Info>: Test process requested process termination with token 140679480390336
+Nov 29 16:05:18  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Application Did Terminate => Expected 1 Process CustomSearch | PID 3335
+Nov 29 16:05:18  FBControlCore[2763] <Info>: Test process requested process launch with bundleID vikcom.CustomSearch
+Nov 29 16:05:18  FBControlCore[2763] <Info>: 4EB16706-AD70-4662-AB32-AE1DC1D58C01: Application Did Launch => Process CustomSearch | PID 3364
+Nov 29 16:05:18  FBControlCore[2763] <Info>: Test process requested launch process status with token 140679480422992
+Nov 29 16:05:35  FBControlCore[2763] <Info>: Test Plan Ended
+Nov 29 16:05:35  FBControlCore[2763] <Info>: Daemon Notified of end of test plan
+Nov 29 16:05:35  FBControlCore[2763] <Info>: Disconnecting Daemon from state 'ended test plan'
+Nov 29 16:05:35  FBControlCore[2763] <Info>: Daemon Connection Ended with result: Daemon Connection ended normally
+Nov 29 16:05:35  FBControlCore[2763] <Info>: Disconnecting Test Bundle in state 'ended test plan'
+Nov 29 16:05:35  FBControlCore[2763] <Info>: Test Completed with Result: Bundle Connection ended normally
+Nov 29 16:05:37  FBControlCore[2763] <Info>: Test Plan Ended
+Nov 29 16:05:37  FBControlCore[2763] <Info>: Daemon Notified of end of test plan
+Nov 29 16:05:37  FBControlCore[2763] <Info>: Disconnecting Daemon from state 'ended test plan'
+Nov 29 16:05:37  FBControlCore[2763] <Info>: Daemon Connection Ended with result: Daemon Connection ended normally
+Nov 29 16:05:37  FBControlCore[2763] <Info>: Disconnecting Test Bundle in state 'ended test plan'
+Nov 29 16:05:37  FBControlCore[2763] <Info>: Test Completed with Result: Bundle Connection ended normally
