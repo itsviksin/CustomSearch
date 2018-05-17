@@ -11,4 +11,9 @@ import UIKit
 class PhotoCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
+
+    // first comment is here
+    // second comment is here
+    // third comment is here
+    // another change is here for you
 }
