@@ -14,5 +14,6 @@ class PhotoCell: UICollectionViewCell {
 
     // first comment is here
     // second comment is here
+    // third comment is here
     // another change is here for you
 }
