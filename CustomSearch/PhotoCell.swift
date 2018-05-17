@@ -12,5 +12,5 @@ class PhotoCell: UICollectionViewCell {
     
     @IBOutlet weak var imageView: UIImageView!
 
-    // this is new change for me
+    // another change is here for you
 }
